@@ -2,6 +2,7 @@
 for another_bin in \
     $HOME/bin \
     /usr/local/php5/bin \
+    $HOME/.rvm/bin
 do
     [[ -e $another_bin ]] && export PATH=$another_bin:$PATH
 done
