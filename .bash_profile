@@ -40,3 +40,5 @@ if [ -f /usr/local/etc/bash_completion ]; then
 fi
 
 . ~/.nvm/nvm.sh # Activate Node Version Manager
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
