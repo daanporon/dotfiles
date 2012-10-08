@@ -126,3 +126,9 @@ alias mysqlstop='mysql.server stop'
 alias startall='psqlstart;mysqlstart'
 alias stopall='psqlstop;mysqlstop'
 alias kd="cd /opt/kDeploy/tools"
+
+## alias to nw¬
+alias nw='/Applications/node-webkit.app/Contents/MacOS/node-webkit'¬
+
+## alias sudo¬
+alias computer,='sudo'¬
